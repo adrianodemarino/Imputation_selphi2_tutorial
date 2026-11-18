@@ -1,0 +1,2 @@
+selphi --refpanel work/panel.chr22.srp2 --input work/array.chr22.vcf.gz --map $MAP \
+    --out results/selphi2.chr22 --threads 16

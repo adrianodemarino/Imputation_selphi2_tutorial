@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-label="The tutorial in five steps: download, prepare, Selphi 2, Beagle (optional), 1x reads (optional)">
+<rect width="1000" height="250" rx="12" fill="#ffffff"/>
+<text x="20" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">The tutorial in five steps</text>
+<rect x="20" y="56" width="168" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="20" y="56" width="168" height="150" rx="10" fill="none" stroke="#59636e" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0400;0.0700;0.2000;0.2300;1" dur="10.0s" repeatCount="indefinite"/></rect>
+<circle cx="44" cy="84" r="13" fill="#59636e"/>
+<text x="44" y="89" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+<text x="66" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">Download</text>
+<text x="36" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">1000 Genomes panel</text>
+<text x="36" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">genetic map</text>
+<path d="M192 131.0 h20 m-6 -5 l6 5 l-6 5" fill="none" stroke="#d0d7de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="218" y="56" width="168" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="218" y="56" width="168" height="150" rx="10" fill="none" stroke="#59636e" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2200;0.2500;0.3800;0.4100;1" dur="10.0s" repeatCount="indefinite"/></rect>
+<circle cx="242" cy="84" r="13" fill="#59636e"/>
+<text x="242" y="89" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+<text x="264" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">Prepare</text>
+<text x="234" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">panel  3,102 people</text>
+<text x="234" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">array  100 people</text>
+<text x="234" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">truth  30x</text>
+<path d="M390 131.0 h20 m-6 -5 l6 5 l-6 5" fill="none" stroke="#d0d7de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="416" y="56" width="168" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="416" y="56" width="168" height="150" rx="10" fill="none" stroke="#0969da" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4300;0.5600;0.5900;1" dur="10.0s" repeatCount="indefinite"/></rect>
+<circle cx="440" cy="84" r="13" fill="#0969da"/>
+<text x="440" y="89" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+<text x="462" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">Selphi 2</text>
+<text x="432" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">.srp2 panel</text>
+<text x="432" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">imputed VCF</text>
+<text x="432" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">accuracy</text>
+<path d="M588 131.0 h20 m-6 -5 l6 5 l-6 5" fill="none" stroke="#d0d7de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="614" y="56" width="168" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="614" y="56" width="168" height="150" rx="10" fill="none" stroke="#9a6700" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5800;0.6100;0.7400;0.7700;1" dur="10.0s" repeatCount="indefinite"/></rect>
+<circle cx="638" cy="84" r="13" fill="#9a6700"/>
+<text x="638" y="89" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
+<text x="660" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">Beagle 5.5</text>
+<text x="630" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">optional:</text>
+<text x="630" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">same job,</text>
+<text x="630" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">to compare</text>
+<path d="M786 131.0 h20 m-6 -5 l6 5 l-6 5" fill="none" stroke="#d0d7de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="812" y="56" width="168" height="150" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="812" y="56" width="168" height="150" rx="10" fill="none" stroke="#1a7f37" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7600;0.7900;0.9200;0.9500;1" dur="10.0s" repeatCount="indefinite"/></rect>
+<circle cx="836" cy="84" r="13" fill="#1a7f37"/>
+<text x="836" y="89" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">5</text>
+<text x="858" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328">1x reads</text>
+<text x="828" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">optional:</text>
+<text x="828" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">impute from</text>
+<text x="828" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">a BAM/CRAM</text>
+<text x="980" y="234" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e">dashed = optional</text>
+</svg>

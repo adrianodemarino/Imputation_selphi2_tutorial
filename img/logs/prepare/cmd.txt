@@ -1,0 +1,1 @@
+selphi --prepare-reference-from work/panel.chr22.vcf.gz --out work/panel.chr22.srp2 --threads 16

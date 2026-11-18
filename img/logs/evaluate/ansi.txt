@@ -1,0 +1,44 @@
+[1;36m[selphi][0m SIMD: [32mAVX-512F+DQ[0m
+  [1;36mSelphi 2.0.0[0m [2m(SelfDecode)[0m
+  mode:     evaluate
+  imputed:  results/selphi2.chr22.vcf.gz
+  truth:    work/truth.chr22.vcf.gz
+  output:   results/selphi2.eval
+  log:      results/selphi2.eval.log
+
+  Imputed:  100 samples
+  Truth:    100 samples
+  Shared:   100 samples
+  GT scan:  reference call (all alleles 0) in data record 1 → complete callset
+  homref:   auto → OFF (truth is a complete callset; scoring matched sites only)
+  dosage:   diploid-equivalent R²/concordance; original-copy truth AF
+  DS units: imputed=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }, truth/raw=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }
+  exclude:  7216 sites from work/array.chr22.vcf.gz
+  Stream-merging VCFs...                                       [2m[0.0s | 49 MB][0m
+
+[1mMAF bin                N variants    Mean R²  Concordance[0m
+------------------------------------------------------------
+0.05-0.1%                       0        N/A          N/A
+0.1-0.2%                        0        N/A          N/A
+0.2-0.5%                        0        N/A          N/A
+0.5-1%                     133440     0.5185       0.9931
+1-2%                        75037     0.5843       0.9872
+2-5%                        59848     0.6918       0.9778
+5-10%                       33375     0.7578       0.9592
+10-20%                      32447     0.7783       0.9295
+20-50%                      59375     0.8209       0.9002
+------------------------------------------------------------
+[1mOVERALL             [0m      1057215 [1;36m    0.6448[0m       0.9877
+  (OVERALL mean R² over 393522 site(s) in the MAF bins; concordance over 1057215 site(s) with a scored sample)
+
+Per-sample (n=100):
+  R²:          mean=[1;36m0.907131[0m, min=0.863519, max=0.942620
+  Concordance: mean=0.987734
+
+  Imputed:  1064451 variants
+  Truth:    1065095 variants
+  Matched:  1057215 variants (99.3% of truth)
+  Chromosomes: 1 (chr22)
+  Results: results/selphi2.eval.json                           [2m[0.5s | 300 MB][0m
+
+Total: 0.5s | Peak memory: 300 MB

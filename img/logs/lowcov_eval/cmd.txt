@@ -1,0 +1,1 @@
+selphi --evaluate results/lowcov_1x.chr22.vcf.gz --truth work/truth.chr22.vcf.gz --out results/lowcov_1x.eval

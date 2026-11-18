@@ -1,0 +1,2 @@
+selphi --bam-list reads/crams_1x.txt --reference ref/GRCh38_full_analysis_set_plus_decoy_hla.fa \
+    --refpanel work/panel.chr22.srp2 --map $MAP --out results/lowcov_1x.chr22 --threads 16

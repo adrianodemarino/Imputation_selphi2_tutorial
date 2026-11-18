@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="450" height="210" rx="12" fill="#ffffff"/>
+<text x="24" y="32" font-size="16" font-weight="700" fill="#1f2328">Phase + impute: wall time</text>
+<text x="24" y="52" font-size="12" fill="#59636e">100 people · chr22 · 16 threads</text>
+<text x="88" y="100" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">Selphi 2</text>
+<rect x="100" y="78" width="139.7" height="34" rx="4" fill="#2a78d6"><animate attributeName="width" values="0;0;139.7" keyTimes="0;0.0833;1" calcMode="spline" keySplines="0 0 1 1;.2 .7 .2 1" dur="1.20s"/></rect>
+<text x="249.7" y="100" font-size="14" font-weight="700" fill="#1f2328" >7.8 s<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7500;1" calcMode="spline" keySplines="0 0 1 1;.2 .7 .2 1" dur="1.20s"/></text>
+<text x="88" y="154" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">Beagle 5.5</text>
+<rect x="100" y="132" width="240.0" height="34" rx="4" fill="#eb6834"><animate attributeName="width" values="0;0;240.0" keyTimes="0;0.1852;1" calcMode="spline" keySplines="0 0 1 1;.2 .7 .2 1" dur="1.35s"/></rect>
+<text x="350.0" y="154" font-size="14" font-weight="700" fill="#1f2328" >13.4 s<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7778;1" calcMode="spline" keySplines="0 0 1 1;.2 .7 .2 1" dur="1.35s"/></text>
+</svg>

@@ -1,0 +1,17 @@
+[1;36m[selphi][0m SIMD: [32mAVX-512F+DQ[0m
+  [1;36mSelphi 2.0.0[0m [2m(SelfDecode)[0m
+  mode:     prepare-reference
+  source:   work/panel.chr22.vcf.gz (VCF)
+  output:   work/panel.chr22.srp2
+  threads:  16
+  log:      work/panel.chr22.log
+
+  Reading VCF panel (streaming)...                             [2m[0.0s | 44 MB][0m
+  Writing SRP (1064451 variants × 6204 haplotypes)...          [2m[42.1s | 12748 MB][0m
+  samples:  3102 (6204 haplotypes)
+  variants: 1064451 (chrchr22, 10519265–50807850)
+  Streaming phased panel → tiles (16 threads)...               [2m[42.2s | 12748 MB][0m
+  SRP: tiles=69.0 MB, file=82.3 MB                             [2m[48.1s | 12748 MB][0m
+  SRP written: work/panel.chr22.srp2 (82.3 MB)                 [2m[48.1s | 12748 MB][0m
+
+Total: 48s | Peak memory: 12748 MB

@@ -1,0 +1,2 @@
+selphi --evaluate results/selphi2.chr22.vcf.gz --truth work/truth.chr22.vcf.gz \
+    --exclude-sites work/array.chr22.vcf.gz --out results/selphi2.eval

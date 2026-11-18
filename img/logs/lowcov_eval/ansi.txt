@@ -1,0 +1,44 @@
+[1;36m[selphi][0m SIMD: [32mAVX-512F+DQ[0m
+  [1;36mSelphi 2.0.0[0m [2m(SelfDecode)[0m
+  mode:     evaluate
+  imputed:  results/lowcov_1x.chr22.vcf.gz
+  truth:    work/truth.chr22.vcf.gz
+  output:   results/lowcov_1x.eval
+  log:      results/lowcov_1x.eval.log
+
+  Imputed:  20 samples
+  Truth:    100 samples
+  Shared:   20 samples
+  Skipped:  80 (truth only)
+  GT scan:  reference call (all alleles 0) in data record 1 → complete callset
+  homref:   auto → OFF (truth is a complete callset; scoring matched sites only)
+  dosage:   diploid-equivalent R²/concordance; original-copy truth AF
+  DS units: imputed=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }, truth/raw=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }
+  Stream-merging VCFs...                                       [2m[0.0s | 44 MB][0m
+
+[1mMAF bin                N variants    Mean R²  Concordance[0m
+------------------------------------------------------------
+0.05-0.1%                       0        N/A          N/A
+0.1-0.2%                        0        N/A          N/A
+0.2-0.5%                        0        N/A          N/A
+0.5-1%                          0        N/A          N/A
+1-2%                            0        N/A          N/A
+2-5%                        81590     0.8671       0.9878
+5-10%                       47514     0.8994       0.9837
+10-20%                      39153     0.9351       0.9803
+20-50%                      61348     0.9601       0.9785
+------------------------------------------------------------
+[1mOVERALL             [0m      1064431 [1;36m    0.9102[0m       0.9959
+  (OVERALL mean R² over 229605 site(s) in the MAF bins; concordance over 1064431 site(s) with a scored sample)
+
+Per-sample (n=20):
+  R²:          mean=[1;36m0.969040[0m, min=0.961463, max=0.975131
+  Concordance: mean=0.995884
+
+  Imputed:  1064451 variants
+  Truth:    1065095 variants
+  Matched:  1064431 variants (99.9% of truth)
+  Chromosomes: 1 (chr22)
+  Results: results/lowcov_1x.eval.json                         [2m[0.3s | 291 MB][0m
+
+Total: 0.3s | Peak memory: 291 MB

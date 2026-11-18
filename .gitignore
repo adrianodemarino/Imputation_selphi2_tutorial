@@ -1,0 +1,11 @@
+# downloaded and generated data (large); the scripts make them again
+data/
+maps/
+work/
+reads/
+ref/
+tools/
+results/*
+!results/summary.json
+.DS_Store
+preview.html
