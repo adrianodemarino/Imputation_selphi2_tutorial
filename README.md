@@ -69,7 +69,7 @@ selphi --help | head -3
 ```
 
 On Linux aarch64 (AWS Graviton) you can skip the build: download the binary attached to the
-[current release](https://github.com/omicsedge/selphi2/releases/tag/2.0.0-rc5), rename it to `selphi` and
+[current release](https://github.com/omicsedge/selphi2/releases/tag/2.0.0-rc6), rename it to `selphi` and
 `chmod +x` it.
 
 Then get this tutorial:
@@ -152,9 +152,9 @@ This is what you will see (the real run, replayed with the pauses shortened):
   <img alt="Terminal: converting the panel, imputing, scoring" src="img/run_array_light.svg" width="100%">
 </picture>
 
-One line is left out of this replay: a `WARN` that the emission error rate fell back to its default
-(`--p-err`, 0.025) in the short last window of chr22, where almost every panel haplotype matches the few chip
-sites. It is expected, and there is nothing to do about it.
+The `emission error rate` note near the end is expected: the last window of chr22 is short, almost every
+panel haplotype matches its few chip sites, so Selphi uses the default error rate there (`--p-err`, 0.025).
+There is nothing to do about it.
 
 What happened:
 
@@ -277,7 +277,7 @@ If samtools stops with `Problem with the SSL CA cert`, point it at your system c
   <img alt="Terminal: imputing from 1x reads" src="img/run_lowcov_light.svg" width="100%">
 </picture>
 
-The 20 people imputed from 1x reads took 229 seconds (about 11 seconds per person) and 9.7 GB of memory. Then
+The 20 people imputed from 1x reads took about 4 minutes (about 12 seconds per person) and 9.7 GB of memory. Then
 the same scoring, on every site:
 
 <picture>

@@ -39,6 +39,6 @@ Per-sample (n=20):
   Truth:    1065095 variants
   Matched:  1064431 variants (99.9% of truth)
   Chromosomes: 1 (chr22)
-  Results: results/lowcov_1x.eval.json                         [2m[0.3s | 291 MB][0m
+  Results: results/lowcov_1x.eval.json                         [2m[0.3s | 277 MB][0m
 
-Total: 0.3s | Peak memory: 291 MB
+Total: 0.3s | Peak memory: 277 MB

@@ -14,7 +14,7 @@
   dosage:   diploid-equivalent R²/concordance; original-copy truth AF
   DS units: imputed=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }, truth/raw=InputDosageOptions { ds_scale: Native, fallback_ploidy: None }
   exclude:  7216 sites from work/array.chr22.vcf.gz
-  Stream-merging VCFs...                                       [2m[0.0s | 49 MB][0m
+  Stream-merging VCFs...                                       [2m[0.0s | 48 MB][0m
 
 [1mMAF bin                N variants    Mean R²  Concordance[0m
 ------------------------------------------------------------
@@ -39,6 +39,6 @@ Per-sample (n=100):
   Truth:    1065095 variants
   Matched:  1057215 variants (99.3% of truth)
   Chromosomes: 1 (chr22)
-  Results: results/selphi2.eval.json                           [2m[0.5s | 300 MB][0m
+  Results: results/selphi2.eval.json                           [2m[0.5s | 301 MB][0m
 
-Total: 0.5s | Peak memory: 300 MB
+Total: 0.5s | Peak memory: 301 MB

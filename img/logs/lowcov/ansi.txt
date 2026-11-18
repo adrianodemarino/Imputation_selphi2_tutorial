@@ -14,55 +14,17 @@
   lcWGS-BAM: 139310 indel panel sites imputed only: out of selection, sampling and phasing (the SNPs run as without them); dose from the chain's copying posterior (flat reads). LCWGS_BAM_INDELS=drop leaves them out
   lcWGS read-pair linkage: forward-backward and phaser at sites of panel MAF >= 0.01 (minor-allele bases below), the first 8 bases of a site of at most 3, samples of median depth <= 3 (LCWGS_LINKAGE=0: off)
   lcWGS-BAM: BAQ on (extended, partial-realignment heuristic — bcftools mpileup default); reference window 50818468 bp
-  lcWGS-BAM: HG02325: 290756 reads, 11384 triggering sites, 8804 realigned (3.0%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG03077: 284744 reads, 11278 triggering sites, 8443 realigned (3.0%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG03458: 256874 reads, 10175 triggering sites, 7441 realigned (2.9%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: NA19439: 285839 reads, 11540 triggering sites, 8615 realigned (3.0%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG01161: 282813 reads, 9381 triggering sites, 7074 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG01286: 292527 reads, 10036 triggering sites, 7958 realigned (2.7%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG01405: 292438 reads, 10023 triggering sites, 7572 realigned (2.6%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: NA19764: 266759 reads, 8749 triggering sites, 6287 realigned (2.4%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG01031: 285669 reads, 9136 triggering sites, 7213 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG01801: 288246 reads, 9831 triggering sites, 7445 realigned (2.6%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG02179: 271982 reads, 9149 triggering sites, 6802 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG02373: 429218 reads, 16559 triggering sites, 15032 realigned (3.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG00255: 294175 reads, 10335 triggering sites, 7829 realigned (2.7%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG00360: 278496 reads, 9676 triggering sites, 7031 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: NA20795: 287448 reads, 9320 triggering sites, 6959 realigned (2.4%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: NA20826: 332556 reads, 10993 triggering sites, 8840 realigned (2.7%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG03012: 275203 reads, 9027 triggering sites, 6867 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG03631: 273951 reads, 9247 triggering sites, 6878 realigned (2.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: HG04152: 317084 reads, 11390 triggering sites, 9005 realigned (2.8%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS-BAM: NA20905: 418740 reads, 16615 triggering sites, 14660 realigned (3.5%), 0 BAQ no-ops [2m[8.0s | 3791 MB][0m
-  lcWGS read-pair linkage: HG02325: 139593 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG03077: 136381 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG03458: 123301 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: NA19439: 136851 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG01161: 135717 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG01286: 140237 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG01405: 140142 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: NA19764: 127284 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG01031: 137165 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG01801: 138386 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG02179: 130791 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG02373: 206173 read pairs over >= 2 SNP sites, median depth 2
-  lcWGS read-pair linkage: HG00255: 141703 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG00360: 133444 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: NA20795: 137699 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: NA20826: 159517 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG03012: 131920 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG03631: 131230 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: HG04152: 151539 read pairs over >= 2 SNP sites, median depth 1
-  lcWGS read-pair linkage: NA20905: 200485 read pairs over >= 2 SNP sites, median depth 1
-  [33mlcWGS panel of 6204 haplotypes (< 30311): conditioning capped in GLIMPSE2 rank order (g2) at kpbwt 2000, no rare-carrier augmentation, 2 Gibbs chain(s) of 20 iterations (15 main) averaged; LCWGS_SMALL_PANEL=old restores the previous conditioning[0m [2m[8.2s | 3791 MB][0m
-  chunked Gibbs: 82.4 cM span → 6 chunks (core 16.0 cM + 0.5 cM buffer each side) [2m[8.4s | 3791 MB][0m
-  lcWGS sample waves: RSS target 13.47 GB, reclaim above 10.10 GB (shared/cache 3.05 GB)
+  lcWGS-BAM: 20 samples: 6,005,518 reads, 166,755 realigned (2.8%), 0 BAQ no-ops (per sample with --debug) [2m[9.9s | 3826 MB][0m
+  lcWGS read-pair linkage: 20 samples, 123,301-206,173 read pairs over >= 2 SNP sites (median 137,432), median depth 1-2 (per sample with --debug)
+  [33mlcWGS panel of 6204 haplotypes (< 30311): conditioning capped in GLIMPSE2 rank order (g2) at kpbwt 2000, no rare-carrier augmentation, 2 Gibbs chain(s) of 20 iterations (15 main) averaged; LCWGS_SMALL_PANEL=old restores the previous conditioning[0m [2m[10.2s | 3826 MB][0m
+  chunked Gibbs: 82.4 cM span → 6 chunks (core 16.0 cM + 0.5 cM buffer each side) [2m[10.4s | 3826 MB][0m
+  lcWGS sample waves: RSS target 13.48 GB, reclaim above 10.11 GB (shared/cache 3.07 GB)
   chunk parallelism: 6 live, up to 16 sample tasks (budget 61.6 GB, estimated 21.68 GB)
-  lcWGS sample waves: 4800 completed sample tasks, 20 pressure collections
+  lcWGS sample waves: 4800 completed sample tasks, 16 pressure collections
   lcWGS read-pair linkage: 72316226 forward-backward anchor entries (72315787 drawn jointly, 439 left to per-site draws); phaser potentials on 1858820 segments and 1619005 boundaries, 154371 read pairs over more than two segments (Metropolis-Hastings: 3947 accepted, 599 rejected)
-  lcwgs done: 1064451 variants × 20 samples                    [2m[226.4s | 9742 MB][0m
+  lcwgs done: 1064451 variants × 20 samples                    [2m[244.0s | 9742 MB][0m
   Imputation quality: mean GP confidence [1;36m0.9974[0m  ·  99.2% of 21,289,020 calls ≥ 0.9
-  wrote imputed VCF: results/lowcov_1x.chr22.vcf.gz            [2m[228.2s | 9742 MB][0m
-  wrote dosage TSV: results/lowcov_1x.chr22.dose.tsv.gz        [2m[228.7s | 9742 MB][0m
+  wrote imputed VCF: results/lowcov_1x.chr22.vcf.gz            [2m[246.2s | 9742 MB][0m
+  wrote dosage TSV: results/lowcov_1x.chr22.dose.tsv.gz        [2m[246.8s | 9742 MB][0m
 
-Total: 229s | Peak memory: 9742 MB
+Total: 247s | Peak memory: 9742 MB

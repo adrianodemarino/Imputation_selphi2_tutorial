@@ -1,6 +1,6 @@
 [1;36m[selphi][0m SIMD: [32mAVX-512F+DQ[0m
-  auto-route: sniff GT=true PL=false GQ=false DP=false call-rate=1.000 (of 200000 GT entries) density=179/Mb (thr 1000) settled PL 0/0 (variant records 0/0, blocks 0) [2m[0.0s | 52 MB][0m
-  auto-route: confident hard calls (GT-only, or GQ/DP below WGS density) [32m→ genotype engine (no refine)[0m [2m[0.0s | 52 MB][0m
+  auto-route: sniff GT=true PL=false GQ=false DP=false call-rate=1.000 (of 200000 GT entries) density=179/Mb (thr 1000) settled PL 0/0 (variant records 0/0, blocks 0) [2m[0.0s | 51 MB][0m
+  auto-route: confident hard calls (GT-only, or GQ/DP below WGS density) [32m→ genotype engine (no refine)[0m [2m[0.0s | 51 MB][0m
   [1;36mSelphi 2.0.0[0m [2m(SelfDecode)[0m
   input:    work/array.chr22.vcf.gz
   refpanel: work/panel.chr22.srp2
@@ -12,24 +12,25 @@
   Loaded SRP: 1064451 variants, 6204 haplotypes                [2m[0.1s | 179 MB][0m
   Target: 100 samples, 7216 variants, phased=false             [2m[0.1s | 179 MB][0m
   Variant intersection: 7216 hash matches, 0 plain matches
-  Shared markers: 7216 (100.0% of target)                      [2m[0.2s | 179 MB][0m
+  Shared markers: 7216 (100.0% of target)                      [2m[0.1s | 179 MB][0m
   Auto max_candidates: n_ref=6204, chunk_cv=0.349, scale=0.379 → mc=6204 (clamp [2500..1000000]) [2m[0.2s | 179 MB][0m
   Resources: 4.6 GB estimated, 123.1 GB system RAM, 16 threads (mc=6204)
   Input is unphased — running phasing pipeline...              [2m[0.2s | 188 MB][0m
   Phasing replicas on: each of the 100 sample(s) phased as 2 copies banned from each other, dosages averaged over all copies' members (default for an unphased cohort above 8 samples: two copies of one member each (SELPHI_DIPLOID_REPLICAS_COHORT_MAX caps it); SELPHI_DIPLOID_REPLICAS=1 turns it off) [2m[0.2s | 188 MB][0m
-  Ref bitmatrix extracted (7216 target sites × 6204 haps, 5.6 MB) [2m[0.2s | 203 MB][0m
-  Using Diploid phasing                                        [2m[0.2s | 203 MB][0m
-  Common ref subset (7111 / 7216 variants, 5.5 MB)             [2m[0.2s | 203 MB][0m
-  Diploid phasing of 2 copies of each sample, 1 member(s) each: 2 ensemble members (1× phasing of 200 samples) [2m[0.2s | 203 MB][0m
-  Ancestry phase check (565 labelled panel samples per group): 0 of 100 sample(s) corrected [2m[2.6s | 328 MB][0m
-  Phasing complete: 100 samples phased                         [2m[2.6s | 328 MB][0m
-  Diploid intra-run ensemble: averaging 2 members from 2 co-phased replicas [2m[2.6s | 328 MB][0m
-  Genetic map loaded + LD correction                           [2m[2.6s | 328 MB][0m
+  Ref bitmatrix extracted (7216 target sites × 6204 haps, 5.6 MB) [2m[0.2s | 216 MB][0m
+  Using Diploid phasing                                        [2m[0.2s | 216 MB][0m
+  Common ref subset (7111 / 7216 variants, 5.5 MB)             [2m[0.2s | 216 MB][0m
+  Diploid phasing of 2 copies of each sample, 1 member(s) each: 2 ensemble members (1× phasing of 200 samples) [2m[0.2s | 216 MB][0m
+  Ancestry phase check (565 labelled panel samples per group): 0 of 100 sample(s) corrected [2m[2.5s | 334 MB][0m
+  Phasing complete: 100 samples phased                         [2m[2.5s | 334 MB][0m
+  Diploid intra-run ensemble: averaging 2 members from 2 co-phased replicas [2m[2.5s | 334 MB][0m
+  Genetic map loaded + LD correction                           [2m[2.5s | 334 MB][0m
   formats:  VCF.gz
   PBWT sort shared across 13 targets (16 groups on 16 threads; auto: 120 GB available, 11.0 MB per in-flight target -> +2.1 GB; mc/n_ref 1.00). Byte-identical; set SELPHI_PBWT_SHARE=1 to disable.
-    Window 1/2: PBWT=4.6s interp=1.7s (6946 vars)
-    Window 2/2: PBWT=0.3s interp=0.1s (331 vars)
-  Output: results/selphi2.chr22.vcf.gz  (1,064,451 variants × 100 samples · 99.4 MB) [2m[9.3s | 2820 MB][0m
+    Window 1/2: PBWT=3.8s interp=1.6s (6946 vars)
+  emission error rate: match-count estimate saturated in a window (cutoff fraction 0.9970 > 0.5: few sites, or every candidate haplotype matches) — using the --p-err floor 0.5 there [2m[8.0s | 2754 MB][0m
+    Window 2/2: PBWT=0.3s interp=0.0s (331 vars)
+  Output: results/selphi2.chr22.vcf.gz  (1,064,451 variants × 100 samples · 99.4 MB) [2m[8.3s | 2754 MB][0m
   Imputation quality: mean DR2 0.2378 · 15.3% of 1,057,235 imputed variants DR2 ≥ 0.8 · mean genotype confidence 0.9878 · 96.6% of calls ≥ 0.9
 
-Total: 9s | Peak memory: 2820 MB
+Total: 8s | Peak memory: 2754 MB
