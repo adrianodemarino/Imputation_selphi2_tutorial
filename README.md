@@ -68,9 +68,9 @@ export PATH=$PWD/selphi2/target/release:$PATH
 selphi --help | head -3
 ```
 
-On Linux aarch64 (AWS Graviton) you can skip the build: download the binary attached to the
-[current release](https://github.com/omicsedge/selphi2/releases/tag/2.0.0-rc6), rename it to `selphi` and
-`chmod +x` it.
+On Linux you can skip the build: download `selphi-linux-x86_64` or `selphi-linux-aarch64` (or the static
+`-musl` build) from the [current release](https://github.com/omicsedge/selphi2/releases/tag/2.0.0-rc7),
+rename it to `selphi` and `chmod +x` it.
 
 Then get this tutorial:
 
